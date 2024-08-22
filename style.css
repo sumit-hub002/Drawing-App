@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.toolbar{
+    margin: 10px;
+}
+
+#drawingCanvas{
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
